@@ -4,6 +4,7 @@ pub mod lzw;
 pub mod lz78;
 pub mod lz77;
 pub mod bwt;
+pub mod kmeans;
 
 /// Interface commune que chaque algorithme de compression doit implémenter.
 /// Travaille toujours sur des octets bruts (`&[u8]`) : c'est ce qui permet
