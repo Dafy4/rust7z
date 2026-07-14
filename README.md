@@ -82,19 +82,29 @@ Options de compression :
 
 ## TEST EXECUTABLE LINUX
 
+```bash
 ./target/release/rust7z compress entree.txt sortie.r7z --algo auto
-
+``` 
 ## LANCER LE GUI 
 
 ./target/release/gui
 
 ## UTILISATION
 
-# Compression
+### Compression
+
+```bash
 ./target/release/rust7z compress fichier.txt fichier.r7z --algo huffman
+```
 
-# Compression avec perte (images)
+### Compression avec perte (images)
+
+```bash
 ./target/release/rust7z compress "tests files/video.mp4" "compressed files/video.r7z" --algo huffman --lossy 5
+```
 
-# Décompression
+### Décompression
+
+```bash
 ./target/release/rust7z decompress "compressed files/video.r7z" "decompressed files/video.mp4"
+```
