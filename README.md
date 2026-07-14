@@ -29,6 +29,7 @@ Il implémente une suite d’algorithmes de compression sans perte (RLE, Huffman
 
 ## STRUCTURE DU PROJET
 
+```txt
 rust7z/
 ├── Cargo.toml
 ├── README.md
@@ -52,6 +53,7 @@ rust7z/
 |   |──decompressed files/
 |
 └── tests/                     # Fichiers de test (non inclus)
+```
 
 ## Compilation 
 - Prérequis : 
